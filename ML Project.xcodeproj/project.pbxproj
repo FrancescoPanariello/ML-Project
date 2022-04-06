@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2661546B27EDD95600C48F4E /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2661546A27EDD95600C48F4E /* SqueezeNet.mlmodel */; };
+		2661546D27EDFC3D00C48F4E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661546C27EDFC3D00C48F4E /* UIImage+Extension.swift */; };
 		26BE35AF27ECED04004C0662 /* ML_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE35AE27ECED04004C0662 /* ML_ProjectApp.swift */; };
 		26BE35B127ECED04004C0662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE35B027ECED04004C0662 /* ContentView.swift */; };
 		26BE35B327ECED05004C0662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BE35B227ECED05004C0662 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2661546A27EDD95600C48F4E /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		2661546C27EDFC3D00C48F4E /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		26BE35AB27ECED04004C0662 /* ML Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BE35AE27ECED04004C0662 /* ML_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_ProjectApp.swift; sourceTree = "<group>"; };
 		26BE35B027ECED04004C0662 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 		26BE35A227ECED04004C0662 = {
 			isa = PBXGroup;
 			children = (
+				2661546A27EDD95600C48F4E /* SqueezeNet.mlmodel */,
 				26BE35AD27ECED04004C0662 /* ML Project */,
 				26BE35BE27ECED05004C0662 /* ML ProjectTests */,
 				26BE35C827ECED05004C0662 /* ML ProjectUITests */,
@@ -98,6 +103,7 @@
 				26BE35B027ECED04004C0662 /* ContentView.swift */,
 				26BE35B227ECED05004C0662 /* Assets.xcassets */,
 				26BE35B427ECED05004C0662 /* Preview Content */,
+				2661546C27EDFC3D00C48F4E /* UIImage+Extension.swift */,
 			);
 			path = "ML Project";
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BE35B127ECED04004C0662 /* ContentView.swift in Sources */,
+				2661546B27EDD95600C48F4E /* SqueezeNet.mlmodel in Sources */,
 				26BE35AF27ECED04004C0662 /* ML_ProjectApp.swift in Sources */,
+				2661546D27EDFC3D00C48F4E /* UIImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ML Project/Preview Content\"";
+				DEVELOPMENT_TEAM = HBMC4L7SC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -447,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ML Project/Preview Content\"";
+				DEVELOPMENT_TEAM = HBMC4L7SC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
